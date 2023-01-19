@@ -19,6 +19,7 @@ html, body {
   display: flex;
   flex-direction: column;
   height: inherit;
+  flex-grow: 1;
 }
 .container main article .content {
   overflow: auto;
