@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.container main {
+  overflow: hidden;
+  display: flex;
+}
+.container main aside {
+  flex: 0 0 200px;
+}
+.container main article {
+  display: flex;
+  flex-direction: column;
+}
+.container main article .content {
+  overflow: auto;
+}
+header, aside, .content, footer {
+  border: 1px solid black;
+  padding: 1rem;
+}
+h1, p {
+  margin-top: 0;
+}
+header {
+  background-color: yellow;
+}
+aside {
+  background-color: papayawhip;
+}
+footer {
+  background-color: goldenrod;
+}
