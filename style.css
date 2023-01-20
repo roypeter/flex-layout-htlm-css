@@ -10,20 +10,21 @@ html, body {
 .container main {
   overflow: hidden;
   display: flex;
-  height: inherit;
+  height: 100%;
 }
 .container main aside {
   flex: 0 0 200px;
+  overflow: auto;
 }
 .container main article {
   display: flex;
   flex-direction: column;
-  height: inherit;
+  height: 100%;
   flex-grow: 1;
 }
 .container main article .content {
   overflow: auto;
-  height: inherit;
+  height: 100%;
 }
 header, aside, .content, footer {
   border: 1px solid black;
