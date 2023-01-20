@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.x-header {
+  background-color: blue;
+}
+
+.x-main {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+}
+
+.x-sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  width: 200px;
+  overflow: auto;
+}
+
+.x-content {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  flex: 1;
+}
+
+.x-notes {
+  background-color: indigo;
+  overflow: auto;
+}
+
+.x-footer {
+  background-color: pink;
+}
